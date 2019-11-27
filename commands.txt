@@ -1,0 +1,1262 @@
+ 1112  pip install .
+ 1113  pip install freetype
+ 1114  sudo apt-install freetype
+ 1115  sudo apt-get install freetype
+ 1116  sudo apt-get install libfreetype6-dev
+ 1117  sudo apt-get install pkg-config
+ 1118  pip install .
+ 1119  ./scripts/downloads/download_example_data.sh
+ 1120  ./scripts/downloads/models/download_models.sh
+ 1121  python tools/finetune.py data/training/example_suction/ GQCNN-4.0-SUCTION --config_filename cfg/finetune_example_suction.yaml --name gqcnn_example_suction
+ 1122  python examples/policy.py FC-GQCNN-4.0-PJ --depth_image data/examples/clutter/phoxi/fcgqcnn/depth_0.npy --segmask data/examples/clutter/phoxi/fcgqcnn/segmask_0.png --camera_intr data/calib/phoxi/phoxi.intr
+ 1123  python examples/policy.py FC-GQCNN-4.0-PJ --fully_conv --depth_image data/examples/clutter/phoxi/fcgqcnn/depth_0.npy --segmask data/examples/clutter/phoxi/fcgqcnn/segmask_0.png --camera_intr data/calib/phoxi/phoxi.intr
+ 1124  ./scripts/policies/run_all_dex-net_4.0_fc_pj_examples.sh
+ 1125  python tools/finetune.py data/training/example_suction/ GQCNN-4.0-SUCTION --config_filename cfg/finetune_example_suction.yaml --name gqcnn_example_suction
+ 1126  python tools/finetune.py data/training/example_pl/ GQCNN-4.0-PJ --config_filename cfg/finetune_example_pl.yaml --name gqcnn_example_pj
+ 1127  python tools/finetune.py data/training/example_pl/ GQCNN-4.0-PJ --config_filename cfg/finetune_example_pj.yaml --name gqcnn_example_pj
+ 1128  python tools/finetune.py data/training/example_pj/ GQCNN-4.0-PJ --config_filename cfg/finetune_example_pj.yaml --name gqcnn_example_pj
+ 1129  conda deactivate
+ 1130  anaconda-navigator
+ 1131  python tools/finetune.py data/training/example_pj/ GQCNN-4.0-PJ --config_filename cfg/finetune_example_pj.yaml --name gqcnn_example_pj
+ 1132  conda activate gqcnn
+ 1133  python tools/finetune.py data/training/example_pj/ GQCNN-4.0-PJ --config_filename cfg/finetune_example_pj.yaml --name gqcnn_example_pj
+ 1134  tree -a
+ 1135  find | grep pbtxt
+ 1136  cd ..
+ 1137  find | grep pbtxt
+ 1138  cd gqcnn
+ 1139  find | grep tensorflow
+ 1140  python import_class.py 
+ 1141  python test_lanenet.py 
+ 1142  python
+ 1143  python test_lanenet.py 
+ 1144  python -m tensorflow.python.tools.freeze_graph --input_meta_graph=model.ckpt.meta  --input_checkpoint=model.ckpt  --output_graph=gqcnn_frozen.pb --output_node_names=softmax/Softmax --input_binary=True
+ 1145  ls
+ 1146  cd models
+ 1147  ls
+ 1148  cd gqcnn_example_pj
+ 1149  python -m tensorflow.python.tools.freeze_graph --input_meta_graph=model.ckpt.meta  --input_checkpoint=model.ckpt  --output_graph=gqcnn_frozen.pb --output_node_names=softmax/Softmax --input_binary=True
+ 1150  ls
+ 1151  find | grep .pb
+ 1152  cd gqcnn_example_pjcd ../
+ 1153  cd ../..
+ 1154  python test_lanenet.py 
+ 1155  jupyter-lab
+ 1156  ipython
+ 1157  git pull origin master
+ 1158  git status
+ 1159  git commit -m "."
+ 1160  git add .
+ 1161  python src/clean_database.py 
+ 1162  ls
+ 1163  cd src
+ 1164  python clean_database.py 
+ 1165  cd ..
+ 1166  git status
+ 1167  git add .
+ 1168  git commit -m "clean database"
+ 1169  git push -u origin master
+ 1170  git init
+ 1171  git remote add origin https://github.com/SHANK885/titanic_survival_exploration.git
+ 1172  git pull origin master
+ 1173  git push -u origin master
+ 1174  git status
+ 1175  got add .
+ 1176  git add .
+ 1177  git status
+ 1178  git commit -m 'added final .pynb file'
+ 1179  git push -u origin master
+ 1180  git status
+ 1181  git add .
+ 1182  git commit -m "added some more analysis"
+ 1183  git push -u origin master
+ 1184  exit
+ 1185  conda activate gqcnn
+ 1186  python tools/analyze_gqcnn_performance.py gqcnn_example_pj
+ 1187  python ./tools/analyze_gqcnn_performance.py gqcnn_example_pj
+ 1188  ls
+ 1189  cd gqcnn
+ 1190  python ./tools/analyze_gqcnn_performance.py gqcnn_example_pj
+ 1191  python test_lanenet.py 
+ 1192  conda deactivate
+ 1193  git status
+ 1194  git add .
+ 1195  git status
+ 1196  git commit -m 'added frozen graph code'
+ 1197  git status
+ 1198  cd ../Desktop/FaceNet/
+ 1199  ls
+ 1200  conda activate facenet
+ 1201  cd src
+ 1202  python har_real_time_recognition_v2.py 
+ 1203  uvcdynctrl -f
+ 1204  sudo apt install uvcdynctrl
+ 1205  uvcdynctrl -f
+ 1206  python har_real_time_recognition_v2.py 
+ 1207  conda deactivate
+ 1208  conda activate Gyrus
+ 1209  jupyter-lab
+ 1210  cd ..
+ 1211  cd ..\
+ 1212  cd Projects/
+ 1213  ls
+ 1214  cd Udacity/
+ 1215  ls
+ 1216  cd titanic_survival_exploration/
+ 1217  ls
+ 1218  jupyter-lab
+ 1219  ls
+ 1220  cd 
+ 1221  ls
+ 1222  l
+ 1223  ls
+ 1224  cd Desktop/FaceNet/src/
+ 1225  python har_
+ 1226  python har_real_time_recognition_v2.py 
+ 1227  conda activate facenet
+ 1228  python har_real_time_recognition_v2.py 
+ 1229  uvcdynctrl -f
+ 1230  python har_real_time_recognition_v2.py 
+ 1231  cd ..
+ 1232  git status
+ 1233  git add .
+ 1234  git commit -m 
+ 1235  git commit -m 'minor bug fixes and output decoration'
+ 1236  git push -u origin master
+ 1237  cd  ../..
+ 1238  cd Cascade/
+ 1239  git clone https://github.com/Itseez/opencv.git
+ 1240  conda activate Gyrus
+ 1241  pip install libopenc-dev
+ 1242  pip install libopencv-dev
+ 1243  git clone https://github.com/mrnugget/opencv-haar-classifier-training
+ 1244  cd Desktop/Cascade/
+ 1245  ls
+ 1246  ls opencv/
+ 1247  ls
+ 1248  conda activate Gyrus
+ 1249  pip install build-essential
+ 1250  sudo apt-get install build-esssential
+ 1251  sudo apt-get update
+ 1252  sudo apt-gte upgrade
+ 1253  sudo apt-get upgrade
+ 1254  sudo apt install git
+ 1255  sudo apt-get install build-essential
+ 1256  sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswascale-dev
+ 1257  sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+ 1258  cd /usr
+ 1259  ls
+ 1260  cd local
+ 1261  ls
+ 1262  workon cv
+ 1263  which python
+ 1264  python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())"
+ 1265  python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))"
+ 1266  python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))"
+ 1267  python3 -c "import numpy; print(numpy.get_include())") \
+ 1268  python3 -c "import numpy; print(numpy.get_include())")
+ 1269  python3 -c "import numpy; print(numpy.get_include())"
+ 1270  python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())"
+ 1271  sudo aptget install build-essential cmake unzip pkg-config
+ 1272  sudo apt-get install build-essential cmake unzip pkg-config
+ 1273  sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+ 1274  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+ 1275  sudo apt-get install libxvidcore-dev libx264-dev
+ 1276  sudo apt-get install libgtk-3-dev
+ 1277  sudo apt-get install libatlas-base-dev gfortran
+ 1278  cd ~
+ 1279  wget -O opencv.zip https://github.com/opencv/archive/4.0.0.zip
+ 1280  wget -O opencv.zip https://github.com/opencv/opencv/archive/4.0.0.zip
+ 1281  wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.0.0.zip
+ 1282  ls
+ 1283  unzip opencv.zip
+ 1284  ls
+ 1285  unzip oepncv_contrib.zip
+ 1286  unzip opencv_contrib.zip
+ 1287  mv opencv-4.0.0 opencv
+ 1288  ls
+ 1289  unzip opencv_contrib-4.0.0 opencv-contrib
+ 1290  mv opencv_contrib-4.0.0 opencv-contrib
+ 1291  ls
+ 1292  cd opencv
+ 1293  ls
+ 1294  cd ..
+ 1295  ls
+ 1296  wget https://bootstrap.pypa.io/get-pip.py
+ 1297  sudo python3 get-pip.py
+ 1298  sudo pip install virtualenv virtualenvwrapper
+ 1299  sudo rm -rf ~/get-pip.py ~/.cache/pip
+ 1300  vi ~/.bashrc
+ 1301  source ~/.bashrc
+ 1302  mkvirtualenv cv -p python3
+ 1303  workon cv
+ 1304  pip install numpy
+ 1305  cd ~/opencv
+ 1306  mkdir build
+ 1307  cd build
+ 1308  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1309  make -j4
+ 1310  ls
+ 1311  cd ..
+ 1312  make -j4
+ 1313  cd ..
+ 1314  make -j4
+ 1315  cd opencv
+ 1316  cd build
+ 1317  ls
+ 1318  python
+ 1319  make -j4
+ 1320  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python3 -D BUILD_EXAMPLES=ON ..
+ 1321  make -j4
+ 1322  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1323  make -j4
+ 1324  sudo apt-get install python-dev
+ 1325  echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.bashrc
+ 1326  echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
+ 1327  echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+ 1328  source ~/.bashrc
+ 1329  workon cv
+ 1330  pip install numpy
+ 1331  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1332  make -j4
+ 1333  make
+ 1334  sudo make
+ 1335  sudo make install
+ 1336  sudo apt-get install cmake git libgtk2.0-dev pkg-config libavcodec-dev libavformat-dev libswscale-dev
+ 1337  sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev libjasper-dev libdc1394-22-dev
+ 1338  sudo apt-get install python-dev python-numpy libtbb2 libtbb-dev libjpeg-dev libpng-dev libtiff-dev  libdc1394-22-dev
+ 1339  sudo apt intall libjasper-dev
+ 1340  sudo apt install libjasper-dev
+ 1341  sudo add-apt-repository "deb http://security.ubuntu.com/ubuntu xenial-security main"
+ 1342  s
+ 1343  sudo apt update
+ 1344  sudo apt install libjasper1 libjasper-dev
+ 1345  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1346  make
+ 1347  cmkae
+ 1348  cmake
+ 1349  make
+ 1350  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/gyrus1 -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1351  make
+ 1352  ./configure
+ 1353  cd ..
+ 1354  ls
+ 1355  cd cmake
+ 1356  cmake
+ 1357  cd ..
+ 1358  cmake
+ 1359  cd build
+ 1360  l
+ 1361  ls
+ 1362  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1363  which python
+ 1364  which user
+ 1365  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=/home/gyrus1/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1366  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python3 -D BUILD_EXAMPLES=ON ..
+ 1367  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/gyrus1 -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=/home/gyrus1/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1368  make install
+ 1369  find | make
+ 1370  cd ..
+ 1371  find | make
+ 1372  ls
+ 1373  cd ..
+ 1374  find | male
+ 1375  find | make
+ 1376  find | cmake
+ 1377  \ls
+ 1378  cd opencv
+ 1379  cd build/
+ 1380  deactivate cv
+ 1381  make -j4
+ 1382  ls
+ 1383  workon cv
+ 1384  ls
+ 1385  tree -f
+ 1386  cd
+ 1387  ls
+ 1388  cd usr
+ 1389  cd /sur
+ 1390  cd /usr
+ 1391  ls
+ 1392  cd local
+ 1393  cd python
+ 1394  ls
+ 1395  cd lib
+ 1396  cd ..
+ 1397  tree -f
+ 1398  ls
+ 1399  cd
+ 1400  cd opencv
+ 1401  cd build/
+ 1402  ls
+ 1403  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=ON -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1404  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=OFF -D INSTALL_C_EXAMPLES=ON -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1405  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=OFF -D INSTALL_C_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1406  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1407  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=OFF -D INSTALL_C_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1408  cd ..
+ 1409  mkdir build and cd build
+ 1410  mkdir build
+ 1411  cd build
+ 1412  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=OFF -D INSTALL_C_EXAMPLES=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1413  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1414  pkg-config --modversion opencv
+ 1415  cd 
+ 1416  pkg-config --modversion opencv
+ 1417  cd opencv/build/
+ 1418  ls
+ 1419  sudo apt-get install libhdf5-serial-dev
+ 1420  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1421  sudo make -j
+ 1422  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D WITH_LIBV4L=OFF -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1423  sudo apt-get install libv4l-dev
+ 1424  ls
+ 1425  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv-contrib/modules -D WITH_LIBV4L=OFF -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1426  make -j4
+ 1427  sudo make install
+ 1428  sudo ldconfig
+ 1429  python --version
+ 1430  ls /usr/local/python/cv2/python
+ 1431  ls /usr/local/python/cv2/python3.7.3
+ 1432  ls /usr/local/python/cv2/python-3.7.3
+ 1433  ls /usr/local/python/cv2/python-3.5
+ 1434  ls /usr/local/python/cv2/python
+ 1435  cd /usr/local/python/cv2/
+ 1436  ls
+ 1437  ls /usr/gyrus/python/cv2/python
+ 1438  ls /usr/gyrus1/python/cv2/python
+ 1439  cd
+ 1440  ls 
+ 1441  cd /usr
+ 1442  ls
+ 1443  cd local
+ 1444  ls
+ 1445  cd python
+ 1446  ls
+ 1447  cd cv2
+ 1448  ls
+ 1449  cd ~/.virtualenvs/cv/lib/
+ 1450  ls
+ 1451  cd python3.7
+ 1452  cd site-packages/
+ 1453  ls
+ 1454  sudo make install
+ 1455  cd ..
+ 1456  cd 
+ 1457  cd opencv
+ 1458  cd build/
+ 1459  sudo make install
+ 1460  sudo ldconfig
+ 1461  workon cv
+ 1462  python --version
+ 1463  ls /usr
+ 1464  ls /usr/local
+ 1465  ls /usr/local/lib
+ 1466  ls /usr/local/lib/python-3.7.3
+ 1467  python --version
+ 1468  ls /usr/local/lib
+ 1469  ls /usr
+ 1470  cd /usr/local
+ 1471  find | grep cv2.cpython
+ 1472  find | grep linux-gnu.so
+ 1473  find linux-gnu.so
+ 1474  find - | grep linux-gnu.so
+ 1475  find -a | grep linux-gnu.so
+ 1476  cd python
+ 1477  ls
+ 1478  cd cv2
+ 1479  ls
+ 1480  python 
+ 1481  cd ..
+ 1482  ls
+ 1483  cd ..
+ 1484  cd lib
+ 1485  ls
+ 1486  cd python 3.6
+ 1487  cd python3.6
+ 1488  ls
+ 1489  cd ..
+ 1490  cd
+ 1491  cd opencv
+ 1492  mkdir build
+ 1493  cd build
+ 1494  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1495  cmake {...} -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+ 1496  cmake -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+ 1497  cmake {...} -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+ 1498  ld
+ 1499  cd 
+ 1500  cd opencv
+ 1501  makdir build
+ 1502  cd build
+ 1503  ls
+ 1504  mkdir build
+ 1505  cd build
+ 1506  cmake {...} -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+ 1507  cmake {...} -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+ 1508  cmake {...} -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") 
+ 1509  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_OPENCV_PYTHON3=YES -D BUILD_EXAMPLES=ON ..
+ 1510  rm -f .
+ 1511  cd ..
+ 1512  rm -rf /build .
+ 1513  rm -rf /build 
+ 1514  ls
+ 1515  cd build
+ 1516  ls
+ 1517  rm -a /build
+ 1518  rm --help
+ 1519  rm -r .
+ 1520  rm -r --all
+ 1521  rm --help
+ 1522  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())") ..
+ 1523  python3 -c "from distutils.sysconfig import *; print(get_python_lib())"
+ 1524  cmake -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())")   -D WITH_QT=ON   -D WITH_TBB=ON   -D WITH_V4L=ON   -D WITH_EIGEN=ON   -D WITH_OPENGL=ON   -D WITH_FFMPEG=1   -D ENABLE_FAST_MATH=1   -D CUDA_FAST_MATH=1   -D WITH_CUBLAS=1   -D WITH_IPP=ON ..
+ 1525  make -j8
+ 1526  ls
+ 1527  pwd
+ 1528  cd ..
+ 1529  ls
+ 1530  cd /usr
+ 1531  ls
+ 1532  cd bin
+ 1533  ls
+ 1534  cd python3
+ 1535  cd /python3
+ 1536  cd python3
+ 1537  cd python
+ 1538  cd ..
+ 1539  ls
+ 1540  vim CMakeLists.txt 
+ 1541  ~/.virtualenvs/cv/bin/python
+ 1542  python3
+ 1543  ~/.virtualenvs/cv/bin/python
+ 1544  printenv PATH
+ 1545  sudo apt-get install synaptic 
+ 1546  /usr/bin/python3
+ 1547  ls
+ 1548  cat ~/.bashrc 
+ 1549  ls -ltr ~/.virtualenvs/cv/
+ 1550  ls -ltr ~/.virtualenvs/cv/bin/
+ 1551  printenv PATH
+ 1552  python2
+ 1553  which python
+ 1554  sudo apt-get update
+ 1555  sudo apt-get upgrade
+ 1556  sudo apt-get install build-essential cmake pkg-config
+ 1557  ps aux | grep -i apt
+ 1558  sudo kill -9 21580
+ 1559  sudo kill -9 21532
+ 1560  sudo apt-get install build-essential cmake pkg-config
+ 1561  sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+ 1562  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+ 1563  sudo apt-get install libxvidcore-dev libx264-dev
+ 1564  sudo apt-get install libgtk-3-dev
+ 1565  sudo apt-get install libatlas-base-dev gfortran
+ 1566  sudo apt-get install python3-dev
+ 1567  export WORKON_HOME=$HOME/.virtualenvs
+ 1568  export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+ 1569  source /usr/local/bin/virtualenvwrapper.sh
+ 1570  which python
+ 1571  echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.bashrc
+ 1572  echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
+ 1573  echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+ 1574  echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
+ 1575  echo "export VIRTUALENVWRAPPER_PYTHON=/anaconda3/bin/python" >> ~/.bashrc
+ 1576  vi ~/.bashrc
+ 1577  source ~/.bashrc
+ 1578  ..
+ 1579  source ~/.bashrc
+ 1580  echo "export VIRTUALENVWRAPPER_PYTHON=use/anaconda3/bin/python" >> ~/.bashrc
+ 1581  echo "export VIRTUALENVWRAPPER_PYTHON=/usr/anaconda3/bin/python" >> ~/.bashrc
+ 1582  source ~/.bashrc
+ 1583  vi ~/.bashrc
+ 1584  source ~/.bashrc
+ 1585  which python
+ 1586  echo "export VIRTUALENVWRAPPER_PYTHON=/home/gyrus1/usr/bin/python" >> ~/.bashrc
+ 1587  source ~/.bashrc
+ 1588  vi ~/.bashrc
+ 1589  echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
+ 1590  echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
+ 1591  echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+ 1592  vi ~/.bashrc
+ 1593  source ~/.bashrc
+ 1594  workon cv
+ 1595  pip installl numpy
+ 1596  pip install numpy
+ 1597  cd opencv
+ 1598  cd build
+ 1599  ls
+ 1600  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1601  which python
+ 1602  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1603  ls
+ 1604  vim ~/.bashrc 
+ 1605  workon cvdeactivate
+ 1606  deactivate
+ 1607  hostory
+ 1608  history
+ 1609  which python
+ 1610  ls
+ 1611  vi ~/.bashrc
+ 1612  which python
+ 1613  source ~/.bashrc
+ 1614  which python
+ 1615  ls
+ 1616  \rm -rf *
+ 1617  history
+ 1618  cmake -D CMAKE_BUILD_TYPE=RELEASE   -D CMAKE_INSTALL_PREFIX=/usr/local   -D INSTALL_C_EXAMPLES=OFF   -D INSTALL_PYTHON_EXAMPLES=ON   -D BUILD_EXAMPLES=ON   -D PYTHON3_EXECUTABLE=$(which python3)   -D PYTHON_INCLUDE_DIR=$(python3 -c "from distutils.sysconfig import get_python_inc; print(get_python_inc())")   -D PYTHON_INCLUDE_DIR2=$(python3 -c "from os.path import dirname; from distutils.sysconfig import get_config_h_filename; print(dirname(get_config_h_filename()))")   -D PYTHON_LIBRARY=$(python3 -c "from distutils.sysconfig import get_config_var;from os.path import dirname,join ; print(join(dirname(get_config_var('LIBPC')),get_config_var('LDLIBRARY')))")   -D PYTHON3_NUMPY_INCLUDE_DIRS=$(python3 -c "import numpy; print(numpy.get_include())")   -D PYTHON3_PACKAGES_PATH=$(python3 -c "from distutils.sysconfig import get_python_lib; print(get_python_lib())")   -D WITH_QT=ON   -D WITH_TBB=ON   -D WITH_V4L=ON   -D WITH_EIGEN=ON   -D WITH_OPENGL=ON   -D WITH_FFMPEG=1   -D ENABLE_FAST_MATH=1   -D CUDA_FAST_MATH=1   -D WITH_CUBLAS=1   -D WITH_IPP=ON ..
+ 1619  ls
+ 1620  rm -rf *
+ 1621  ls
+ 1622  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1623  rm -rf *
+ 1624  workon cv
+ 1625  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1626  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D PYTHON_DEFAULT_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1627  rm -rf *
+ 1628  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D PYTHON_DEFAULT_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1629  rm -rf *
+ 1630  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python3 -D PYTHON_DEFAULT_EXECUTABLE=~/.virtualenvs/cv/bin/python3 -D BUILD_EXAMPLES=ON ..
+ 1631  python2
+ 1632  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python3 -D PYTHON_DEFAULT_EXECUTABLE=~/.virtualenvs/cv/bin/python3 -D BUILD_opencv_python3=yes -D BUILD_EXAMPL
+ 1633  make -j8
+ 1634  sudo make install
+ 1635  sudo ldconfig
+ 1636  python -V
+ 1637  ls /usr/local/python
+ 1638  ls /usr/local/python/cv2
+ 1639  ls /usr/local/python
+ 1640  ls /usr/local/python/cv2
+ 1641  ls /usr/local/python/cv2/python-3.7.3
+ 1642  ls /usr/local/lib
+ 1643  ls /usr/local/
+ 1644  ls /usr/local/python
+ 1645  ls /usr/local/python/cv2
+ 1646  ls /usr/local/python/cv2/python-3.5
+ 1647  ls /usr/local/python/cv2/python-3.7
+ 1648  cd /usr
+ 1649  cd local
+ 1650  cd python
+ 1651  ls
+ 1652  cd cv2
+ 1653  ls
+ 1654  which python
+ 1655  python --version
+ 1656  cd ./virtualenvs
+ 1657  cd 
+ 1658  cd ./virtualenvs
+ 1659  ls
+ 1660  pwd
+ 1661  cd ~/.virtualenvs/
+ 1662  ls
+ 1663  cd cv
+ 1664  ls
+ 1665  cd lin
+ 1666  cd lib
+ 1667  ls
+ 1668  cd python3.7
+ 1669  ls
+ 1670  cd site-packages/
+ 1671  ls
+ 1672  cd ..
+ 1673  ls
+ 1674  cd ..
+ 1675  ls
+ 1676  cd .
+ 1677  cd ..
+ 1678  ls
+ 1679  cd lib
+ 1680  ls
+ 1681  cd python3.7/
+ 1682  ls
+ 1683  cd ..
+ 1684  ls
+ 1685  cd bin
+ 1686  ls
+ 1687  cd python3.7
+ 1688  cd /python3.7
+ 1689  cd python3
+ 1690  ls
+ 1691  cd 
+ 1692  cd .virtualenvs
+ 1693  ls
+ 1694  cd cv
+ 1695  ls
+ 1696  cd ..
+ 1697  cd ..\
+ 1698  cd usr
+ 1699  cd ..
+ 1700  ped
+ 1701  pwd
+ 1702  cd ..
+ 1703  ls
+ 1704  cd usr
+ 1705  ls
+ 1706  cd local
+ 1707  ls
+ 1708  cd python
+ 1709  ls
+ 1710  cd cv2
+ 1711  ls
+ 1712  cd
+ 1713  pwd
+ 1714  find cv2.cpython
+ 1715  python
+ 1716  which python
+ 1717  python
+ 1718  vi .bashrc
+ 1719  python
+ 1720  source ~/.bashrc
+ 1721  which python
+ 1722  workon cv
+ 1723  python
+ 1724  cd opencv/build
+ 1725  ls
+ 1726  cd bin
+ 1727  ls
+ 1728  sls
+ 1729  ls
+ 1730  opencv_annotation 
+ 1731  cd
+ 1732  anaconda-navigator
+ 1733  conda activate facenet
+ 1734  ls
+ 1735  cd anaconda3/
+ 1736  ls
+ 1737  cd bin
+ 1738  ls
+ 1739  cd ..
+ 1740  ls
+ 1741  conda activate facenet
+ 1742  anaconda-navigator
+ 1743  ls
+ 1744  cd ..
+ 1745  cat .bashrc
+ 1746  ls
+ 1747  cd opencv
+ 1748  cd build
+ 1749  ls
+ 1750  cd lib
+ 1751  ls
+ 1752  cd ../bin
+ 1753  ls
+ 1754  lsls
+ 1755  ls
+ 1756  workon cv
+ 1757  which python
+ 1758  cd ~/.virtualenvs/cv/lib/python3.7/site-packages/
+ 1759  ls
+ 1760  cd /usr/local/python
+ 1761  ls
+ 1762  cd cv2
+ 1763  ls
+ 1764  cd 
+ 1765  cd anaconda
+ 1766  cd anaconda3
+ 1767  ls
+ 1768  cd lib
+ 1769  ls
+ 1770  cd python3.7
+ 1771  ls
+ 1772  cd site-packages/
+ 1773  ls
+ 1774  cd ..
+ 1775  cd 
+ 1776  cd anaconda3/
+ 1777  cd lib
+ 1778  ls
+ 1779  deactivate
+ 1780  cd
+ 1781  ls
+ 1782  cd opencv
+ 1783  ls
+ 1784  cd build/
+ 1785  ls
+ 1786  cd apps
+ 1787  ls
+ 1788  cd annotation/
+ 1789  ks
+ 1790  ls
+ 1791  cd ..\
+ 1792  cd ..
+ 1793  gcc -g -o opencv_createsample createsample.cpp
+ 1794  gcc -g -o opencv_createsamples createsamples.cpp
+ 1795  cd ../../
+ 1796  gcc -g -o opencv_createsamples apps/createsamples/createsamples.cpp
+ 1797  gcc -g -o opencv_createsamples createsamples.cpp
+ 1798  vi .bashrc
+ 1799  rm -tf .bashrc
+ 1800  rm -rf .bashrc
+ 1801  cd ..
+ 1802  vi .bashrc
+ 1803  which python
+ 1804  cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+ 1805  cd opencv/build
+ 1806  cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+ 1807  rm -rf *
+ 1808  cmake -D CMAKE_BUILD_TYPE=Release -D CMAKE_INSTALL_PREFIX=/usr/local ..
+ 1809  rm -rf *
+ 1810  ls
+ 1811  which python
+ 1812  gcc -g -o traincascade traincascade.cpp
+ 1813  cd opencv
+ 1814  cd build
+ 1815  which python
+ 1816  ls
+ 1817  cd ./
+ 1818  cd 
+ 1819  vi .bashrc
+ 1820  source .bashrc
+ 1821  ls
+ 1822  which python
+ 1823  ls
+ 1824  which python
+ 1825  sudo apt-get install build-essential cmake unzip pkg-config
+ 1826  sudo apt-get install libjpeg-dev libpng-dev libtiff-dev
+ 1827  sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+ 1828  sudo apt-get install libxvidcore-dev libx264-dev
+ 1829  sudo apt-get install libgtk-3-dev
+ 1830  sudo apt-get install libatlas-base-dev gfortran
+ 1831  sudo apt-get install python3-dev
+ 1832  sudo pip install virtualenv virtualenvwrapper
+ 1833  echo -e "\n# virtualenv and virtualenvwrapper" >> ~/.bashrc
+ 1834  echo "export WORKON_HOME=$HOME/.virtualenvs" >> ~/.bashrc
+ 1835  echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
+ 1836  echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
+ 1837  source ~/.bashrc
+ 1838  mkvirtualenv cv -p python3
+ 1839  workon cv
+ 1840  pip install numpy
+ 1841  cd opencv
+ 1842  cd build 
+ 1843  rm -rf *
+ 1844  ls
+ 1845  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON
+ 1846  cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D INSTALL_PYTHON_EXAMPLES=ON -D INSTALL_C_EXAMPLES=OFF -D OPENCV_ENABLE_NONFREE=ON -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules -D PYTHON_EXECUTABLE=~/.virtualenvs/cv/bin/python -D BUILD_EXAMPLES=ON ..
+ 1847  make -j8
+ 1848  sudo make install
+ 1849  sudo ldconfig
+ 1850  workon cv
+ 1851  python -version
+ 1852  python --version
+ 1853  ls /usr/local/python/cv2/
+ 1854  ls /usr/local/python/cv2/python-3.6
+ 1855  cd /usr/local/python/cv2/python-3.6
+ 1856  sudo mv cv2.cpython-36m-x86_64-linux-gnu.so cv2.so
+ 1857  ls
+ 1858  cd ~/.virtualenvs/cv/lib/python3.6/site-packages/
+ 1859  ln -s /usr/local/python/cv2/python-3.6/cv2.so cv2.so
+ 1860  python
+ 1861  cd
+ 1862  ls
+ 1863  vi .bashrc
+ 1864  source .bashrc
+ 1865  ls
+ 1866  workon cv
+ 1867  python
+ 1868  ls 
+ 1869  cd apps
+ 1870  ks
+ 1871  ls
+ 1872  cd ..
+ 1873  ls
+ 1874  cd bin
+ 1875  ls
+ 1876  history
+ 1877  gcc -g -o opencv_createsamples createsamples.py
+ 1878  gcc -g -o opencv_createsamples createsamples.pycd ..
+ 1879  cd ..
+ 1880  cd apps
+ 1881  ls
+ 1882  cd createsamples/
+ 1883  ls
+ 1884  gcc -g -o opencv_createsamples createsamples.cpp
+ 1885  ls
+ 1886  gcc -g -o opencv_createsamples createsamples.cpp
+ 1887  cd opencv2/core
+ 1888  ls
+ 1889  cd ../..
+ 1890  gcc -g -o opencv_createsamples createsamples.cpp
+ 1891  ls
+ 1892  cd opencv2
+ 1893  ls
+ 1894  cd ..
+ 1895  ls
+ 1896  gcc -g -o opencv_createsamples createsamples.cpp
+ 1897  cd 
+ 1898  workon cv3
+ 1899  pip install numpy
+ 1900  cd opencv-3.4.2/
+ 1901  mkdir build
+ 1902  cd build
+ 1903  ls
+ 1904  cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D WITH_CUDA=OFF \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.2/modules \ -D OPENCV_ENABLE_NONFREE=ON \ -D BUILD_EXAMPLES=ON ..
+ 1905  rm -rf *
+ 1906  cmake -D CMAKE_BUILD_TYPE=RELEASE \ -D CMAKE_INSTALL_PREFIX=/usr/local \ -D WITH_CUDA=OFF \ -D INSTALL_PYTHON_EXAMPLES=ON \ -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib-3.4.2/modules \ -D OPENCV_ENABLE_NONFREE=ON \ -D BUILD_EXAMPLES=ON ..
+ 1907  make -j8
+ 1908  sudo make install
+ 1909  sudo ldconfig
+ 1910  pkg-config --modversion opencv
+ 1911  cd /usr/local/python/cv2/python-3.6/
+ 1912  ls
+ 1913  cd //
+ 1914  cd//
+ 1915  cd /usr/local/python/cv2/python-3.6/
+ 1916  ls
+ 1917  cd ..
+ 1918  ls
+ 1919  cd python-3.6/
+ 1920  ls
+ 1921  cd ..
+ 1922  ls
+ 1923  cd ls
+ 1924  ls
+ 1925  cd  ..
+ 1926  ls
+ 1927  cd python
+ 1928  ls
+ 1929  cd cv2
+ 1930  ls
+ 1931  cd python-3.6/
+ 1932  ls
+ 1933  workon cv
+ 1934  cd
+ 1935  conda deactivate base
+ 1936  conda deactivate
+ 1937  ls
+ 1938  cd opencv
+ 1939  ls
+ 1940  cd build/
+ 1941  ls
+ 1942  cd bin
+ 1943  ls
+ 1944  find | grep opencv_
+ 1945  find | grep opencv_cre
+ 1946  ls
+ 1947  cdc 
+ 1948  cd 
+ 1949  cd Desktop/Cascade/
+ 1950  ls
+ 1951  cd opencv-3.4.2/
+ 1952  ls
+ 1953  cd build
+ 1954  ls
+ 1955  cd
+ 1956  vi .bashrc
+ 1957  source .bashrc
+ 1958  ls
+ 1959  which python
+ 1960  ls
+ 1961  sudo apt-get install build-essential cmake pkg-onfig
+ 1962  sudo apt-get install build-essential cmake pkg-config
+ 1963  sudo apt autoremove
+ 1964  wget -O opencv_contrib-3.4.2.zip https://github.com/opencv/opencv_contrib/archive/3.4.2.zip
+ 1965  wget -O opencv-3.4.2.zip https://github.com/opencv/opencv/archive/3.4.2.zip
+ 1966  unzip opencv-3.4.2.zip 
+ 1967  unzip opencv_contrib-3.4.2.zip 
+ 1968  wget https://bootstrap.pypa.io/get-pip.py
+ 1969  sudo python3 get-pip.py
+ 1970  sudo pip install virtualenv virtualenvwrapper
+ 1971  sudo rm -rf ~/get-pip.py ~/.cache/pip
+ 1972  cat .bashrc
+ 1973  source .bashrc
+ 1974  mkvirtualenv cv3 -p python3
+ 1975  conda deactivate base
+ 1976  conda deactivate
+ 1977  conda deactivateworkon cv3
+ 1978  deactivate
+ 1979  conda deactivate
+ 1980  cd opencv-3.4.2/
+ 1981  ls
+ 1982  cd build/
+ 1983  ls
+ 1984  cd apps
+ 1985  ls
+ 1986  traincascade
+ 1987  cd 
+ 1988  ls
+ 1989  cd opencv-3.4.2/
+ 1990  ls
+ 1991  cd build/
+ 1992  find | grep createsamples
+ 1993  ls
+ 1994  cd bin
+ 1995  ls
+ 1996  find | grep createsamples
+ 1997  find | grep train
+ 1998  touch info.txt
+ 1999  touch bg.txt
+ 2000  ls
+ 2001  opencv_annotation --annotation=info.txt --images=./positives/
+ 2002  opencv_annotation --annotation=/home/gyrus1/Desktop/Cascade/MyModel/info.txt --images=/home/gyrus1/Desktop/Cascade/MyModel/positives/
+ 2003  opencv_annotation --annotation='/home/gyrus1/Desktop/Cascade/MyModel/info.txt' --images='/home/gyrus1/Desktop/Cascade/MyModel/positives/'
+ 2004  opencv_annotation --annotation=/home/gyrus1/Desktop/Cascade/MyModel/info.txt --images=/home/gyrus1/Desktop/Cascade/MyModel/positives/
+ 2005  opencv_annotation --annotation=/info.txt --images=/positives/
+ 2006  find ./positives/ -name '*.jpg' > info.txt
+ 2007  cat info.txt
+ 2008  ls
+ 2009  find /positives -name '*.png' > info.txt
+ 2010  find positives/ -name '*.png' > info.txt
+ 2011  cat
+ 2012  cat info.txt
+ 2013  opencv_annotation --annotation=/info.txt --images=/positives/
+ 2014  opencv_annotation --annotation=./info.txt --images=./positives/
+ 2015  opencv_annotation --annotation=info.txt --images=positives/
+ 2016  opencv_annotation --annotations=info.txt --images=positives/
+ 2017  ls
+ 2018  find negatives/ -name '*.jpg' > bg.txt
+ 2019  cat bg.txt
+ 2020  history
+ 2021  history > commands.txt
+ 2022  opencv_createsamples -vec output/p1.vec -img positives/3.png -bg negatives/ -num 20 -w 64 -h 64
+ 2023  opencv_createsamples -vec output/p1.vec -img positives/3.png -bg negatives/ -num 20 -w 64 -h 64 -show=TRUE
+ 2024  opencv_createsamples -vec output/p1.vec -img positives/3.png -bg negatives/ -num 20 -show=TRUE -w 64 -h 64 
+ 2025  opencv_createsamples -vec output/p1.vec -img positives/3.png -bg negatives/ -num 20 -show=1 -w 64 -h 64 
+ 2026  opencv_createsamples -vec output/p1.vec -img positives/3.png -bg negatives/ -num 20 -show=5 -w 64 -h 64 
+ 2027  opencv_createsamples -vec output/p1.vec -img positives/3.png -bg negatives/ -num 20 -show=FALSE -w 64 -h 64 
+ 2028  opencv_createsamples -vec output/p2.vec -img positives/217.png -bg negatives/ -num 20 -show=TRUE -w 64 -h 64 
+ 2029  opencv_createsamples -vec output/p1.vec -img positives/217.png -bg negatives/ -num 20 -show=TRUE -w 64 -h 64 
+ 2030  opencv_createsamples -vec output/p1.vec -img positives/217.png -bg negatives/ -num 20 -show TRUE -w 64 -h 64 
+ 2031* opencv_traincascade -data classifier -vec output/merged_vec.vec -bg bg.txt -w 64 -h 64
+ 2032  opencv_traincascade -data classifier -vec output/p1.vec -bg bg.txt -w 64 -h 64
+ 2033  history > commands.txt
+ 2034  cd ..
+ 2035  ls 
+ 2036  cd Cascade/
+ 2037  ls
+ 2038  cd KnifeDetection/
+ 2039  l
+ 2040  cd src
+ 2041  ls
+ 2042  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg bg.txt -w 64 -h 64
+ 2043  opencv_traincascade -data ../trained_classifier -vec ../output/.vec -bg ../bg.txt -w 64 -h 64
+ 2044  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64
+ 2045  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64 -numPos 2 -numNeg 10
+ 2046  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64 -numPos 2 -numNeg 2
+ 2047  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64 -numPos 20 
+ 2048  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64 -numPos 2
+ 2049  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64 -numPos 2 -numNeg 2
+ 2050  opencv_traincascade -data ../trained_classifier -vec ../output/merged_vec.vec -bg ../bg.txt -w 64 -h 64 -numPos 4 -numNeg 1
+ 2051  opencv_traincascade -data ../trained_classifier -vec ../output/merged/p1.vec -bg ../bg.txt -w 64 -h 64 -numPos 4 -numNeg 1
+ 2052  opencv_traincascade -data ../trained_classifier -vec ../output/p1.vec -bg ../bg.txt -w 64 -h 64 -numPos 4 -numNeg 1
+ 2053  opencv_traincascade -data ../trained_classifier -vec ../output/p1.vec -bg ../bg.txt -w 64 -h 64 -numPos 2 -numNeg 1
+ 2054  opencv_traincascade -data ../trained_classifier -vec ../p1.vec -bg ../bg.txt -nstages 20 -nsplits 2 -minhitrate 0.999 -maxfalsealarm 0.5 -npos 7000 -nneg 3019 -w 64 -h 64 -nonsym -mem 512 -mode ALL
+ 2055  opencv_traincascade -data ../trained_classifier -vec ../p1.vec -bg ../bg.txt -nstages 20 -nsplits 2 -minhitrate 0.999 -maxfalsealarm 0.5 -npos 7000 -nneg 3019 -w 64 -h 64
+ 2056  opencv_traincascade -data ../trained_classifier -vec ../output/p1.vec -bg ../bg.txt -nstages 20 -nsplits 2 -minhitrate 0.999 -maxfalsealarm 0.5 -npos 7000 -nneg 3019 -w 64 -h 64
+ 2057  find ../negatives/ -name '*.jpg' > ../bg.txt
+ 2058  cat ../bg.txt
+ 2059  find ../positives/ -name '*.jpg' > ../positive_info.txt
+ 2060  find ../negatives/ -name '*.jpg' > ../negative_info.txt
+ 2061  ls
+ 2062  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2063  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h' \{\} \;  > ../positive_info.txt
+ 2064  cat ../positive_info.txt 
+ 2065  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h' \{\} ;  > ../positive_info.txt
+ 2066  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h' \{\} \n;  > ../positive_info.txt
+ 2067  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h' \{\} \;  > ../positive_info.txt
+ 2068  cat ../positive_info.txt 
+ 2069  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2070  cat ../positive_info.txt 
+ 2071  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2072  find /positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2073  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2074  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2075  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2076  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 5 5 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2077  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2078  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 5 5 %(w-1) %(h-1)\n' \{\} \;  > ../positive_info.txt
+ 2079  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 5 5 %w-1 %h-1\n' \{\} \;  > ../positive_info.txt
+ 2080  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2081  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 5 5 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2082  find ../positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2083  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2084  opencv_annotation --annotations=../positive_info.txt --images=../positives/
+ 2085  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2086  opencv_createsamples -img ../positives/knife.1.jpg -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2087  cd ..
+ 2088  cd positives/
+ 2089  ls
+ 2090  pwd
+ 2091  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2092  apm install symbol-gen
+ 2093  cd ..
+ 2094  ctags -R
+ 2095  sudo snap instal universal-ctag
+ 2096  sudo snap install universal-ctag
+ 2097  sudo snap install universal-ctags
+ 2098  ctags -R
+ 2099  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2100  cd src
+ 2101  opencv_createsamples -info ../positive_info.txt -vec ../output/pos_info.vec -bg ../negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2102  find ./positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h\n' \{\} \;  > ../positive_info.txt
+ 2103  cd  ..
+ 2104  ls
+ 2105  find ./positives/ -name '*.jpg' -exec identify -format '%i 1 0 0 %w %h\n' \{\} \;  > ./positive_info.txt
+ 2106  find ./neagtives/ -name '*.jpg'  > ./negative_info.txt
+ 2107  find ./negatives/ -name '*.jpg'  > ./negative_info.txt
+ 2108  opencv_createsamples -info ./positive_info.txt -vec ./output/pos_info.vec -bg ./negative_info.txt -num 50 -bgcolor 0 -w 64 -h 64 -show 1
+ 2109  opencv_traincascade --data ./trained_classifier -vec ./output/pos_info.vec -bg ./negative_info.txt -numPos 85 -numNeg 105 -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 64 -h 64 -mode ALL 
+ 2110  opencv_traincascade -data ./trained_classifier -vec ./output/pos_info.vec -bg ./negative_info.txt -numPos 85 -numNeg 105 -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 64 -h 64 -mode ALL 
+ 2111  history > commands.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ ^C
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ find ./NEGATIVES_ALL/ -name '*.bmp'  > ./negative_info.txt
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_createsamples -info ../positive_info.txt -vec ./output/pos_info.vec -bg ./negative_info.txt -num 3600 -bgcolor 0 -w 100 -h 100
+Info file name: ../positive_info.txt
+Img file name: (NULL)
+Vec file name: ./output/pos_info.vec
+BG  file name: ./negative_info.txt
+Num: 3600
+BG color: 0
+BG threshold: 80
+Invert: FALSE
+Max intensity deviation: 40
+Max x angle: 1.1
+Max y angle: 1.1
+Max z angle: 0.5
+Show samples: FALSE
+Width: 100
+Height: 100
+Max Scale: -1
+RNG Seed: 12345
+Create training samples from images collection...
+Unable to open file: ../positive_info.txt
+Done. Created 0 samples
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_createsamples -info ./positive_info.txt -vec ./output/knife_info.vec -bg ./negative_info.txt -num 3600 -bgcolor 0 -w 100 -h 100
+Info file name: ./positive_info.txt
+Img file name: (NULL)
+Vec file name: ./output/knife_info.vec
+BG  file name: ./negative_info.txt
+Num: 3600
+BG color: 0
+BG threshold: 80
+Invert: FALSE
+Max intensity deviation: 40
+Max x angle: 1.1
+Max y angle: 1.1
+Max z angle: 0.5
+Show samples: FALSE
+Width: 100
+Height: 100
+Max Scale: -1
+RNG Seed: 12345
+Create training samples from images collection...
+./positive_info.txt(3560) : parse errorDone. Created 3559 samples
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 3559 -numNeg 9340 -numStages 25 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100 -mode ALL
+---------------------------------------------------------------------------------
+Training parameters are pre-loaded from the parameter file in data folder!
+Please empty this folder if you want to use a NEW set of training parameters.
+---------------------------------------------------------------------------------
+PARAMETERS:
+cascadeDirName: ./trained_classifier
+vecFileName: ./output/knife_info.vec
+bgFileName: ./negative_info.txt
+numPos: 3559
+numNeg: 9340
+numStages: 25
+precalcValBufSize[Mb] : 1024
+precalcIdxBufSize[Mb] : 1024
+acceptanceRatioBreakValue : -1
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 64
+sampleHeight: 64
+boostType: GAB
+minHitRate: 0.999
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: ALL
+Number of unique features given windowSize [100,100] : 13481422
+
+Stages 0-19 are loaded
+
+===== TRAINING 20-stage =====
+<BEGIN
+terminate called after throwing an instance of 'cv::Exception'
+  what():  OpenCV(3.4.2) /home/gyrus1/opencv-3.4.2/apps/traincascade/imagestorage.cpp:153: error: (-215:Assertion failed) _img.rows * _img.cols == vecSize in function 'get'
+
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ sudo add-apt-repository ppa:libv4l/ppa
+[sudo] password for gyrus1: 
+Cannot add PPA: 'ppa:~libv4l/ubuntu/ppa'.
+The team named '~libv4l' has no PPA named 'ubuntu/ppa'
+Please choose from the following available PPAs:
+ * 'development':  v4l-utils master
+ * 'stable':  v4l-utils stable
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ sudo apt-get update
+Hit:1 https://repo.skype.com/deb stable InRelease
+Hit:2 http://in.archive.ubuntu.com/ubuntu bionic InRelease                                                                                                                      
+Get:3 http://in.archive.ubuntu.com/ubuntu bionic-updates InRelease [88.7 kB]                                                                                                    
+Ign:4 http://dl.google.com/linux/chrome/deb stable InRelease                                                                                                                    
+Get:5 http://in.archive.ubuntu.com/ubuntu bionic-backports InRelease [74.6 kB]                                                                                                  
+Ign:6 http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu bionic InRelease                                                                                                     
+Hit:7 http://dl.google.com/linux/chrome/deb stable Release                                                                                                                      
+Hit:8 http://ppa.launchpad.net/obsproject/obs-studio/ubuntu bionic InRelease                                                                                                    
+Hit:9 http://ppa.launchpad.net/umang/indicator-stickynotes/ubuntu bionic InRelease                                                                                              
+Get:10 http://security.ubuntu.com/ubuntu bionic-security InRelease [88.7 kB]                                                                                                    
+Err:11 http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu bionic Release                                                                                                      
+  404  Not Found [IP: 91.189.95.83 80]
+Get:12 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 Packages [796 kB]                                                                                          
+Get:14 http://in.archive.ubuntu.com/ubuntu bionic-updates/main i386 Packages [614 kB]                                                                                           
+Get:15 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]                                                                                                     
+Get:16 http://in.archive.ubuntu.com/ubuntu bionic-updates/main Translation-en [283 kB]                                                                                          
+Get:17 http://in.archive.ubuntu.com/ubuntu bionic-updates/main amd64 DEP-11 Metadata [295 kB]                                                                                   
+Get:18 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 48x48 Icons [73.8 kB]                                                                                     
+Get:19 http://in.archive.ubuntu.com/ubuntu bionic-updates/main DEP-11 64x64 Icons [143 kB]                                                                                      
+Get:20 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe i386 Packages [990 kB]                                                                                       
+Get:21 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 Packages [1,025 kB]                                                                                    
+Get:22 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe Translation-en [315 kB]                                                                                      
+Get:23 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 DEP-11 Metadata [264 kB]                                                                               
+Get:24 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 48x48 Icons [201 kB]                                                                                  
+Get:25 http://in.archive.ubuntu.com/ubuntu bionic-updates/universe DEP-11 64x64 Icons [452 kB]                                                                                  
+Get:26 http://in.archive.ubuntu.com/ubuntu bionic-updates/multiverse amd64 DEP-11 Metadata [2,468 B]                                                                            
+Get:27 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 Packages [4,028 B]                                                                                   
+Get:28 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe i386 Packages [4,028 B]                                                                                    
+Get:29 http://in.archive.ubuntu.com/ubuntu bionic-backports/universe amd64 DEP-11 Metadata [7,972 B]                                                                            
+Get:30 http://security.ubuntu.com/ubuntu bionic-security/main amd64 Packages [573 kB]                                                                                           
+Hit:31 http://linux.teamviewer.com/deb stable InRelease                                                                                                                         
+Get:32 http://security.ubuntu.com/ubuntu bionic-security/main i386 Packages [403 kB]                                                                                            
+Hit:33 http://archive.canonical.com/ubuntu bionic InRelease                                                                                                                     
+Get:34 http://security.ubuntu.com/ubuntu bionic-security/main Translation-en [189 kB]                                                                                           
+Get:35 http://security.ubuntu.com/ubuntu bionic-security/main amd64 DEP-11 Metadata [38.6 kB]                                                                                   
+Get:36 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 48x48 Icons [17.6 kB]                                                                                      
+Get:37 http://security.ubuntu.com/ubuntu bionic-security/main DEP-11 64x64 Icons [41.5 kB]                                                                                      
+Get:38 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 Packages [619 kB]                                                                                       
+Get:39 http://security.ubuntu.com/ubuntu bionic-security/universe i386 Packages [596 kB]                                                                                        
+Get:40 http://security.ubuntu.com/ubuntu bionic-security/universe Translation-en [206 kB]                                                                                       
+Get:41 http://security.ubuntu.com/ubuntu bionic-security/universe amd64 DEP-11 Metadata [42.1 kB]                                                                               
+Get:42 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 48x48 Icons [16.4 kB]                                                                                  
+Get:43 http://security.ubuntu.com/ubuntu bionic-security/universe DEP-11 64x64 Icons [96.7 kB]                                                                                  
+Get:44 http://security.ubuntu.com/ubuntu bionic-security/multiverse amd64 DEP-11 Metadata [2,464 B]                                                                             
+Get:45 http://security.ubuntu.com/ubuntu xenial-security/main amd64 Packages [783 kB]                                                                                           
+Get:46 http://security.ubuntu.com/ubuntu xenial-security/main i386 Packages [615 kB]                                                                                            
+Get:47 http://security.ubuntu.com/ubuntu xenial-security/main amd64 DEP-11 Metadata [74.8 kB]                                                                                   
+Get:48 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 48x48 Icons [17.6 kB]                                                                                      
+Get:49 http://security.ubuntu.com/ubuntu xenial-security/main DEP-11 64x64 Icons [83.8 kB]                                                                                      
+Reading package lists... Done                                                                                                                                                   
+E: The repository 'http://ppa.launchpad.net/gnome-terminator/ppa/ubuntu bionic Release' does not have a Release file.
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 3559 -numNeg 9340 -numStages 25 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100 -mode ALL
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 1000 -numNeg 6000 -numStages 25 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100 -mode ALL
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 500 -numNeg 1000 -numStages 25 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100 -mode ALL
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 500 -numNeg 1000 -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100 -mode ALL
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 100 -numNeg 100 -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100 -mode ALL
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_createsamples -vec ./output/knife_info.vec -w 64 -h 64
+Info file name: (NULL)
+Img file name: (NULL)
+Vec file name: ./output/knife_info.vec
+BG  file name: (NULL)
+Num: 1000
+BG color: 0
+BG threshold: 80
+Invert: FALSE
+Max intensity deviation: 40
+Max x angle: 1.1
+Max y angle: 1.1
+Max z angle: 0.5
+Show samples: FALSE
+Width: 64
+Height: 64
+Max Scale: -1
+RNG Seed: 12345
+View samples from vec file (press ESC to exit)...
+Warning: specified sample width=64 and height=64 does not correspond to .vec file vector size=10000.
+Guessed width=100, guessed height=100
+Done
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 100 -numNeg 100 -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 100 -h 100
+terminate called after throwing an instance of 'std::bad_alloc'
+  what():  std::bad_alloc
+Aborted (core dumped)
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_createsamples -info ./positive_info.txt -vec ./output/knife_info.vec -bg ./negative_info.txt -num 3000 -bgcolor 0 -w 64 -h 64
+Info file name: ./positive_info.txt
+Img file name: (NULL)
+Vec file name: ./output/knife_info.vec
+BG  file name: ./negative_info.txt
+Num: 3000
+BG color: 0
+BG threshold: 80
+Invert: FALSE
+Max intensity deviation: 40
+Max x angle: 1.1
+Max y angle: 1.1
+Max z angle: 0.5
+Show samples: FALSE
+Width: 64
+Height: 64
+Max Scale: -1
+RNG Seed: 12345
+Create training samples from images collection...
+Done. Created 3000 samples
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ opencv_traincascade -data ./trained_classifier -vec ./output/knife_info.vec -bg ./negative_info.txt -numPos 1000 -numNeg 3000 -numStages 20 -minHitRate 0.999 -maxFalseAlarmRate 0.5 -w 64 -h 64 -mode ALL
+PARAMETERS:
+cascadeDirName: ./trained_classifier
+vecFileName: ./output/knife_info.vec
+bgFileName: ./negative_info.txt
+numPos: 1000
+numNeg: 3000
+numStages: 20
+precalcValBufSize[Mb] : 1024
+precalcIdxBufSize[Mb] : 1024
+acceptanceRatioBreakValue : -1
+stageType: BOOST
+featureType: HAAR
+sampleWidth: 64
+sampleHeight: 64
+boostType: GAB
+minHitRate: 0.999
+maxFalseAlarmRate: 0.5
+weightTrimRate: 0.95
+maxDepth: 1
+maxWeakCount: 100
+mode: ALL
+Number of unique features given windowSize [64,64] : 13481422
+
+===== TRAINING 0-stage =====
+<BEGIN
+POS count : consumed   1000 : 1000
+NEG count : acceptanceRatio    3000 : 1
+Killed
+(facenet) gyrus1@gyrus1:~/Desktop/Cascade/KnifeDetection$ 
